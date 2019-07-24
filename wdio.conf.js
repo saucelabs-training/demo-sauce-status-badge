@@ -74,7 +74,7 @@ exports.config = {
         {browserName: 'safari', platformName: 'macOS 10.13', browserVersion: '11.1', 'sauce:options': {'seleniumVersion': '3.14.0', 'build': 'sauce-status-badge-tests-v1.2', 'public': 'public'}},
         {browserName: 'safari', platformName: 'macOS 10.14', browserVersion: '12.0', 'sauce:options': {'seleniumVersion': '3.14.0', 'build': 'sauce-status-badge-tests-v1.2', 'public': 'public'}},
         {browserName: 'firefox', platformName: 'macOS 10.12', browserVersion: '68.0', 'sauce:options': {'seleniumVersion': '3.14.0', 'build': 'sauce-status-badge-tests-v1.2', 'public': 'public'}},
-        {browserName: 'firefox', platformName: 'Windows 10', browserVersion: 'latest', 'sauce:options': {'seleniumVersion': '3.14.0', 'build': 'ssauce-status-badge-tests-v1.2', 'public': 'public'}},
+        {browserName: 'firefox', platformName: 'Windows 10', browserVersion: 'latest', 'sauce:options': {'seleniumVersion': '3.14.0', 'build': 'sauce-status-badge-tests-v1.2', 'public': 'public'}},
         {browserName: 'internet explorer', platform: 'Windows 8.1', version: '11.0', build: 'sauce-status-badge-tests-v1.2', public: 'public'},
         {browserName: 'internet explorer', platform: 'Windows 10', version: '11.0', build: 'sauce-status-badge-tests-v1.2', public: 'public'},
         {browserName: 'MicrosoftEdge', platform: 'Windows 10', version: '16.16299', build: 'sauce-status-badge-tests-v1.2', public: 'public'},
