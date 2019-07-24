@@ -42,7 +42,7 @@
     npm test
     ```
     
- > For more details refer to the following wiki page:
+ > Note that the demo pulls build status data from the last automated build. Create a sub-account in order to access specific  individual project data. For more details refer to the following wiki page:
  > [Using the Status Badges and the Browser Matrix Widget to Monitor Test Results](https://wiki.saucelabs.com/display/DOCS/Using+Status+Badges+and+the+Browser+Matrix+Widget+to+Monitor+Test+Results)
    
 <br />
