@@ -1,4 +1,5 @@
 # Sauce Labs Status Badge Demo
+[![CircleCI](https://circleci.com/gh/saucelabs-training/demo-sauce-status-badge.svg?style=svg)](https://circleci.com/gh/saucelabs-training/demo-sauce-status-badge)
 
 #### Status Badge
 [![Sauce Test Status](https://saucelabs.com/buildstatus/SAUCE_USERNAME)](https://app.saucelabs.com/u/SAUCE_USERNAME)
