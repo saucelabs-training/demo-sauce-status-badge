@@ -23,16 +23,16 @@
     git clone https://github.com/saucelabs-training/demo-sauce-status-badge.git
     ```
 2. [Set your Sauce Labs Credentials as environment variables](https://wiki.saucelabs.com/display/DOCS/Best+Practices+for+Running+Tests#BestPracticesforRunningTests-UseEnvironmentVariablesforAuthenticationCredentials)
-3. Change the username for the badge and matrix URL in the `README.md` file:
+3. Add the username for the badge and matrix URLs like so:
     
-    * Status Badge:
+    * Build Status Badge Example URL:
         ```
-        [![Sauce Test Status](https://saucelabs.com/buildstatus/SAUCE_USERNAME)](https://app.saucelabs.com/u/SAUCE_USERNAME)
+        [![Build Status](https://saucelabs.com/buildstatus/SAUCE_USERNAME)](https://app.saucelabs.com/u/SAUCE_USERNAME)
 
         ```
-    * Browser Matrix:
+    * Browser Matrix Example URL:
         ```
-        [![Sauce Test Status](https://saucelabs.com/browser-matrix/SAUCE_USERNAME.svg)](https://saucelabs.com/u/SAUCE_USERNAME)
+        [![Browser Matrix](https://saucelabs.com/browser-matrix/SAUCE_USERNAME.svg)](https://saucelabs.com/u/SAUCE_USERNAME)
         ```
 4. Navigate to the project directory and run:
     ```
