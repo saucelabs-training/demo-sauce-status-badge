@@ -2,10 +2,10 @@
 [![CircleCI](https://circleci.com/gh/saucelabs-training/demo-sauce-status-badge.svg?style=svg)](https://circleci.com/gh/saucelabs-training/demo-sauce-status-badge)
 
 #### Status Badge
-[![Sauce Test Status](https://saucelabs.com/buildstatus/SAUCE_USERNAME)](https://app.saucelabs.com/u/SAUCE_USERNAME)
+![Sauce Test Status](https://saucelabs.com/buildstatus/axios)
 
 #### Browser Matrix
-[![Sauce Test Status](https://saucelabs.com/browser-matrix/SAUCE_USERNAME.svg)](https://saucelabs.com/u/SAUCE_USERNAME)
+![Sauce Test Status](https://saucelabs.com/browser-matrix/axios.svg)
 
 <br />
 
