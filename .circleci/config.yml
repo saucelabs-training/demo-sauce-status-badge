@@ -27,7 +27,3 @@ jobs:
           command: |
             npm install
             npm test
-      - run:
-          name: "Shut Down Sauce Connect Tunnel"
-          command: |
-            kill -9 `cat /tmp/sc.pid1`
