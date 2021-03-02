@@ -22,25 +22,8 @@ jobs:
           paths:
             - ./node_modules
       - run:
-          name: "Install Sauce Connect Client"
-          command: |
-            sudo apt-get install lsof
-            curl https://saucelabs.com/downloads/sc-4.4.12-linux.tar.gz -o saucelabs.tar.gz
-            tar -xzf saucelabs.tar.gz
-      - run:
-          name: "Launch Tunnel"
-          background: true
-          command: |
-            cd sc-*
-            bin/sc --pidfile /tmp/sc.pid1 -u ${SAUCE_USERNAME} -k ${SAUCE_ACCESS_KEY} -i demo-js-tunnel --no-remove-colliding-tunnels --se-port 4445
-      - run:
           name: "Run Node Tests"
           # wait for tunnel listening on port 4445 before running tests
           command: |
-            while ! lsof -i:4445 -t; do sleep 3; done
             npm install
             npm test
-      - run:
-          name: "Shut Down Sauce Connect Tunnel"
-          command: |
-            kill -9 `cat /tmp/sc.pid1`
