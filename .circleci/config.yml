@@ -25,7 +25,6 @@ jobs:
           name: "Run Node Tests"
           # wait for tunnel listening on port 4445 before running tests
           command: |
-            while ! lsof -i:4445 -t; do sleep 3; done
             npm install
             npm test
       - run:
